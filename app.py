@@ -1,6 +1,5 @@
 from flask import Flask, redirect, request, url_for, session, flash, render_template
 from flask_mysqldb import MySQL
-from functools import wraps
 from wtforms import Form, StringField, BooleanField, validators
 
 app = Flask(__name__)
